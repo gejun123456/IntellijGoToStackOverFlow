@@ -42,4 +42,4 @@ dependencies{
 }
 
 group 'com.bruce.intellijpluin'
-version '1.0-SNAPSHOT'
+version '1.0'

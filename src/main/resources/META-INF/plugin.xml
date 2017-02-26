@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>com.bruce.intellijpluin.stackoverflow</id>
     <name>stackoverflow</name>
-    <version>1.3.1</version>
+    <version>1.0</version>
     <vendor email="gejun123456@gmail.com">stackoverflow</vendor>
 
     <description><![CDATA[

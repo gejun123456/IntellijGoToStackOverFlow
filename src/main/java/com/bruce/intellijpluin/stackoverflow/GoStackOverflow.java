@@ -18,7 +18,6 @@ import javax.swing.*;
  */
 public class GoStackOverflow extends AnAction {
 
-
     public GoStackOverflow(){
         super(null,null, new ImageIcon(GoStackOverflow.class.getClassLoader().getResource("icon/stackoverflow.png")));
     }
