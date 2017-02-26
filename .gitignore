@@ -1,0 +1,33 @@
+/MybatisGenerator.zip
+/codehelper.generator.log
+# Created by .ignore support plugin (hsz.mobi)
+
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+/.idea/
+*.iml
+/out/
+/build/
+/MybatisGenerator.iml
+/MybatisGenerator.ipr
+/MybatisGenerator.iws
+/.gradle/
+
+src/com/ccnode/codegenerator/view/EnterLicenseAction.java
+*ShowPremiumAction.java
+src/com/ccnode/codegenerator/service/register/RegisterCheckService.java
+*RegisterRawResponseHelper.java
+*RegisterRawRequest.java
+*RegisterRawResponse.java
+*RegisterRawRequestHelper.java
+src/com/ccnode/codegenerator/service/register/RegisterService.java
+MybatisGenerator.iml
+MybatisGenerator.ipr
+MybatisGenerator.iws
+
+### Example user template
+
+# IntelliJ project files
+

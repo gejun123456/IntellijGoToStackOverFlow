@@ -1,0 +1,23 @@
+<idea-plugin version="2">
+    <id>com.bruce.intellijpluin.stackoverflow</id>
+    <name>stackoverflow</name>
+    <version>1.3.1</version>
+    <vendor email="gejun123456@gmail.com">stackoverflow</vendor>
+
+    <description><![CDATA[
+      go to stackoverflow by right click
+    ]]>
+    </description>
+    <change-notes>
+    </change-notes>
+
+    <actions>
+        <group id="GoToStackOverFlowGroup">
+            <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <action class="com.bruce.intellijpluin.stackoverflow.GoStackOverflow" id="GoToStackOverFlowAction"
+                    text="search stackoverflow"
+                    description="search from stackoverflow"/>
+        </group>
+    </actions>
+    <idea-version since-build="141.0"/>
+</idea-plugin>
