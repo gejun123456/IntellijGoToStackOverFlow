@@ -14,6 +14,7 @@
     <actions>
         <group id="GoToStackOverFlowGroup">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+            <add-to-group group-id="ConsoleEditorPopupMenu" anchor="first"/>
             <action class="com.bruce.intellijpluin.stackoverflow.GoStackOverflow" id="GoToStackOverFlowAction"
                     text="search stackoverflow"
                     description="search from stackoverflow"/>

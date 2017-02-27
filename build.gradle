@@ -6,7 +6,6 @@ buildscript {
         maven { url 'http://dl.bintray.com/jetbrains/intellij-plugin-service'}
     }
 }
-
 plugins {
     id "org.jetbrains.intellij" version "0.1.10"
 }

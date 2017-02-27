@@ -34,6 +34,4 @@ public class GoStackOverflow extends AnAction {
             BrowserLauncher.getInstance().browse(googleSite + "?#newwindow=1&q=site:stackoverflow.com " + "&*", WebBrowserManager.getInstance().getFirstActiveBrowser());
         }
     }
-
-
 }
