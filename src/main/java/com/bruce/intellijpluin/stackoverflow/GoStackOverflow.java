@@ -1,7 +1,6 @@
 package com.bruce.intellijpluin.stackoverflow;
 
-import com.intellij.ide.browsers.BrowserLauncher;
-import com.intellij.ide.browsers.WebBrowserManager;
+import com.intellij.ide.BrowserUtil;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
 import com.intellij.openapi.actionSystem.LangDataKeys;
@@ -29,9 +28,9 @@ public class GoStackOverflow extends AnAction {
                 caretModel.getCurrentCaret();
         String selectedText = currentCaret.getSelectedText();
         if (StringUtils.isNotBlank(selectedText)) {
-            BrowserLauncher.getInstance().browse(googleSite + "?#newwindow=1&q=site:stackoverflow.com " + selectedText + "&*", WebBrowserManager.getInstance().getFirstActiveBrowser());
+            BrowserUtil.browse(googleSite + "?#newwindow=1&q=site:stackoverflow.com " + selectedText + "&*");
         } else {
-            BrowserLauncher.getInstance().browse(googleSite + "?#newwindow=1&q=site:stackoverflow.com " + "&*", WebBrowserManager.getInstance().getFirstActiveBrowser());
+            BrowserUtil.browse(googleSite + "?#newwindow=1&q=site:stackoverflow.com " + "&*");
         }
     }
 }
