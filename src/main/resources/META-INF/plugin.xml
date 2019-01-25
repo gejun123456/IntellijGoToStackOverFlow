@@ -15,9 +15,12 @@
         <group id="GoToStackOverFlowGroup">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
             <add-to-group group-id="ConsoleEditorPopupMenu" anchor="first"/>
-            <action class="com.bruce.intellijpluin.stackoverflow.GoStackOverflow" id="GoToStackOverFlowAction"
-                    text="search stackoverflow"
-                    description="search from stackoverflow"/>
+            <action class="com.bruce.intellijpluin.stackoverflow.GoStackOverflow" id="GoToStackOverFlowActionGoogle"
+                    text="search stackoverflow by google"
+                    description="google"/>
+            <action class="com.bruce.intellijpluin.stackoverflow.GoStackOverflow" id="GoToStackOverFlowActionBaidu"
+                    text="search stackoverflow by baidu"
+                    description="baidu"/>
         </group>
     </actions>
     <idea-version since-build="141.0"/>
