@@ -1,19 +1,18 @@
-
-
 buildscript {
     repositories {
         mavenLocal()
-        maven {url "http://maven.aliyun.com/nexus/content/groups/public"}
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+        maven { url "https://plugins.gradle.org/m2/" }
         mavenCentral()
     }
-}
-plugins {
-    id "org.jetbrains.intellij" version "0.1.10"
+    dependencies {
+        classpath "gradle.plugin.org.jetbrains.intellij.plugins:gradle-intellij-plugin:+"
+    }
 }
 
 repositories {
     mavenLocal()
-    maven {url "http://maven.aliyun.com/nexus/content/groups/public"}
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
     mavenCentral()
 }
 
@@ -22,9 +21,7 @@ tasks.withType(JavaCompile) {
     options.encoding = "UTF-8"
 }
 
-apply plugin: 'idea'
 apply plugin: 'org.jetbrains.intellij'
-apply plugin: 'java'
 
 intellij {
 //    IC-2016.1  IC-14.1.4 IC-2016.3  IU-2016.1
@@ -39,7 +36,7 @@ intellij {
 //    }
 }
 
-dependencies{
+dependencies {
     testCompile "org.assertj:assertj-core:2.2.0"
 }
 
