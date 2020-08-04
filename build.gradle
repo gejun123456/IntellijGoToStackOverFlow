@@ -1,7 +1,7 @@
 buildscript {
     repositories {
         mavenLocal()
-        maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+        maven { url "https://maven.aliyun.com/nexus/content/groups/public" }
         maven { url "https://maven.aliyun.com/repository/gradle-plugin" }
         mavenCentral()
     }
@@ -12,7 +12,7 @@ buildscript {
 
 repositories {
     mavenLocal()
-    maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+    maven { url "https://maven.aliyun.com/nexus/content/groups/public" }
     mavenCentral()
 }
 
