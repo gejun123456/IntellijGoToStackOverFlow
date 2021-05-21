@@ -28,9 +28,9 @@ public class GoStackOverflow extends AnAction {
                 caretModel.getCurrentCaret();
         String selectedText = currentCaret.getSelectedText();
         if (StringUtils.isNotBlank(selectedText)) {
-            BrowserUtil.browse(googleSite + "?#newwindow=1&q=site:stackoverflow.com " + selectedText + "&*");
+            BrowserUtil.browse(googleSite + "?q=site:stackoverflow.com " + selectedText + "&*");
         } else {
-            BrowserUtil.browse(googleSite + "?#newwindow=1&q=site:stackoverflow.com " + "&*");
+            BrowserUtil.browse(googleSite + "?q=site:stackoverflow.com " + "&*");
         }
     }
 }
